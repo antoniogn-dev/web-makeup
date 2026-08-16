@@ -40,7 +40,7 @@ const HeroSection = () => {
                     className={`${philosopher.className} bg-red-600 w-50 py-6 font-semibold text-lg hover:bg-red-800 transition-colors duration-300 mt-10`}
                 >
                     <Link
-                        href="https://wa.me/51999999999?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                        href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
                         target='_blank'
                         rel='noopener noreferrer'
                     >
