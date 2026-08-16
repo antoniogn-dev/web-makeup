@@ -1,6 +1,6 @@
 import { philosopher } from "@/libs/fonts"
 import Image from "next/image"
-import { Button } from "./ui/button"
+import { Button } from "../ui/button"
 
 const HeroSection = () => {
     return (
@@ -8,7 +8,7 @@ const HeroSection = () => {
             {/* Imagen de fondo */}
             <Image
                 src="/images/fondo-mirna-delgado.png"
-                alt=""
+                alt="fondo mirna delgado glave"
                 fill
                 priority
                 className="object-cover -z-10"
@@ -20,7 +20,7 @@ const HeroSection = () => {
             {/* Contenido encima de la imagen */}
             <div className="flex flex-col justify-start text-white px-4 lg:w-[70%]">
                 <h1
-                    className={`${philosopher.className} text-center text-[14px] md:text-xl w-67.5 md:w-100 md:font-bold rounded-full tracking-wider text-red-600 font-semibold mb-4 bg-black/50 scale-y-150 text-shadow-black text-shadow-xs md:mb-10`}
+                    className={`${philosopher.className} text-center text-[14px] md:text-xl w-67.5 md:w-100 md:font-bold rounded-full tracking-wider text-red-600 font-semibold mb-4 bg-black/40 scale-y-150 text-shadow-gray-400 text-shadow-xs md:mb-10`}
                 >
                     Maquilladora Profesional Visagista
                 </h1>
