@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Button } from './ui/button';
+import { Button } from './button';
 import Image from 'next/image';
 import { philosopher } from '@/libs/fonts';
 import { IoMenuSharp, IoCloseSharp } from 'react-icons/io5'
