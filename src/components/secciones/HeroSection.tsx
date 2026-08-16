@@ -1,6 +1,7 @@
 import { philosopher } from "@/libs/fonts"
 import Image from "next/image"
 import { Button } from "../ui/button"
+import Link from "next/link"
 
 const HeroSection = () => {
     return (
@@ -20,7 +21,7 @@ const HeroSection = () => {
             {/* Contenido encima de la imagen */}
             <div className="flex flex-col justify-start text-white px-4 lg:w-[70%]">
                 <h1
-                    className={`${philosopher.className} text-center text-[14px] md:text-xl w-67.5 md:w-100 md:font-bold rounded-full tracking-wider text-red-600 font-semibold mb-4 bg-black/40 scale-y-150 text-shadow-gray-400 text-shadow-xs md:mb-10`}
+                    className={`${philosopher.className} text-center text-[14px] md:text-xl w-67.5 md:w-100 md:font-bold rounded-full tracking-wider text-red-600 font-semibold mb-4 bg-black/40 scale-y-150 text-shadow-gray-800 text-shadow-xs md:mb-10`}
                 >
                     Maquilladora Profesional Visagista
                 </h1>
@@ -35,7 +36,17 @@ const HeroSection = () => {
                     Resaltamos tu belleza natural con maquillaje y peinados profesionales, adaptados a tu estilo y personalidad. Cada detalle está pensado para que luzcas radiante y segura en cualquier ocasión especial.
                 </p>
 
-                <Button className={`${philosopher.className} bg-red-600 w-50 py-6 font-semibold text-lg hover:bg-red-800 transition-colors duration-300 mt-10`}>RESERVAR CITA</Button>
+                <Button
+                    className={`${philosopher.className} bg-red-600 w-50 py-6 font-semibold text-lg hover:bg-red-800 transition-colors duration-300 mt-10`}
+                >
+                    <Link
+                        href="https://wa.me/51999999999?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                        target='_blank'
+                        rel='noopener noreferrer'
+                    >
+                        RESERVAR CITA
+                    </Link>
+                </Button>
             </div>
         </section>
     )

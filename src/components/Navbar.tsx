@@ -81,7 +81,9 @@ export default function Navbar() {
                             scrolled ? `text-[18px] font-medium text-white transition py-4 px-3` : `text-[18px] font-medium text-red-600 transition py-6 px-4`
                         )}>
                         <Link
-                            href="#"
+                            href="https://wa.me/51999999999?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                            target='_blank'
+                            rel='noopener noreferrer'
                         >
                             Reservar Cita
                         </Link>
@@ -133,7 +135,18 @@ export default function Navbar() {
                 </ul>
 
                 <div className='flex justify-center mt-20'>
-                    <Button className="bg-red-600 text-xl font-bold py-6 hover:bg-red-800 w-[70%] cursor-pointer">Reservar Cita</Button>
+                    <Button
+                        className="bg-red-600 text-xl font-bold py-6 hover:bg-red-800 w-[70%] cursor-pointer"
+                    >
+                        <Link
+                            href="https://wa.me/51999999999?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            onClick={() => setOpen(false)}
+                        >
+                            Reservar Cita
+                        </Link>
+                    </Button>
                 </div>
 
 
