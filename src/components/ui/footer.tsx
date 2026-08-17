@@ -2,49 +2,46 @@ import {
     Mail,
     Phone,
     MapPin,
-    Gauge,
 } from "lucide-react";
 import Link from "next/link";
 
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import Formulario from "./Formulario";
 
 const Footer = () => {
     return (
         <footer className="bg-white  border-t border-sky-500/10">
             {" "}
             {/* Updated border color */}
-            <div className="max-w-7xl mx-auto px-6 md:px-12 py-12">
+            <div className="max-w-337.5 mx-auto px-6 md:px-12 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                     {/* Logo and Description */}
                     <div className="space-y-4">
                         <div className="flex items-center space-x-2">
-                            <div className="h-8 w-8 relative">
-                                <Gauge className="w-8 h-8 text-sky-400" />
-                            </div>
-                            <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r clash-display from-sky-500 to-zinc-900">
+                           
+                            <h2 className={`text-xl sm:text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r clash-display from-red-600 to-zinc-900`}>
                                 {" "}
                                 {/* Updated gradient */}
-                                DriveWell <sup className="text-xs ml-1 text-zinc-700">TM</sup>
+                                mirnadelgadoglavemakeup.com
                             </h2>
                         </div>
                         <p className="text-gray-600 max-w-md">
-                            Your premier partner for seamless car rentals. Explore our diverse
-                            fleet and embark on unforgettable journeys with comfort and style.
+                            Belleza, elegancia y confianza en cada detalle. Creamos looks personalizados que reflejan tu estilo y personalidad.
                         </p>
                         <div className="flex space-x-4 pt-2">
                             <a
                                 href="https://instagram.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-600 hover:text-sky-400 transition-colors"
+                                className="text-gray-600 hover:text-red-600 transition-colors"
                             >
                                 <FaInstagram size={20} />
                             </a>
                             <a
-                                href="https://facebook.com"
+                                href="https://www.facebook.com/mirnadelgadoglavemakeup"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-600 hover:text-sky-400 transition-colors"
+                                className="text-gray-600 hover:text-red-600 transition-colors"
                             >
                                 <FaFacebook size={20} />
                             </a>
@@ -52,61 +49,72 @@ const Footer = () => {
                                 href="https://youtube.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="text-gray-600 hover:text-sky-400 transition-colors"
+                                className="text-gray-600 hover:text-red-600 transition-colors"
                             >
                                 <FaYoutube size={20} />
                             </a>
                         </div>
+
+                         <h3 className="clash-display text-zinc-800  mb-4 pb-2 ">
+                            {" "}
+                            {/* Updated border color */}
+                            Enlaces
+                        </h3>
+
+                        <Formulario /> 
+                       
                     </div>
+
+                    
 
                     {/* Quick Links */}
                     <div className="md:ml-20">
                         <h3 className="clash-display text-zinc-800  mb-4 pb-2 border-b border-sky-500/10">
                             {" "}
                             {/* Updated border color */}
-                            Quick Links
+                            Enlaces
                         </h3>
                         <ul className="space-y-2">
                             <li>
                                 <Link
                                     href="/"
-                                    className="text-gray-600 hover:text-sky-400 transition-colors"
+                                    className="text-gray-600 hover:text-red-600 transition-colors"
                                 >
                                     Home
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="/fleet"
-                                    className="text-gray-600 hover:text-sky-400 transition-colors"
+                                    href="/sobre-mi"
+                                    className="text-gray-600 hover:text-red-600 transition-colors"
                                 >
-                                    Fleet
+                                    Sobre Mí
                                 </Link>
                             </li>{" "}
                             {/* Updated path */}
                             <li>
                                 <Link
-                                    href="/blog"
-                                    className="text-gray-600 hover:text-sky-400 transition-colors"
+                                    href="/servicios"
+                                    className="text-gray-600 hover:text-red-600 transition-colors"
                                 >
-                                    Blog
+                                    Servicios
                                 </Link>
                             </li>
                             <li>
                                 <Link
-                                    href="/about"
-                                    className="text-gray-600 hover:text-sky-400 transition-colors"
+                                    href="/portafolio"
+                                    className="text-gray-600 hover:text-red-600 transition-colors"
                                 >
-                                    About Us
+                                    Portafolio
                                 </Link>
                             </li>{" "}
                             {/* Updated path */}
                             <li>
                                 <Link
-                                    href="/booking"
-                                    className="text-gray-600 hover:text-sky-400 transition-colors"
+                                    href="/contacto"
+                                    className="text-gray-600 hover:text-red-600 transition-colors"
                                 >
-                                    Book Now
+                                    Contacto
                                 </Link>
                             </li>{" "}
                             {/* Updated path */}
@@ -118,23 +126,28 @@ const Footer = () => {
                         <h3 className="clash-display text-zinc-800  mb-4 pb-2 border-b border-sky-500/10">
                             {" "}
                             {/* Updated border color */}
-                            Contact Us
+                            Contacto
                         </h3>
                         <ul className="space-y-4">
                             <li className="flex items-center space-x-3 text-gray-600">
-                                <Mail size={16} className="text-sky-500" />{" "}
+                                <Mail size={16} className="text-red-600" />{" "}
                                 {/* Updated icon color */}
-                                <span>info@drivewell.com</span> {/* Updated email */}
+                                <span>mirnadelgadoglave@gmail.com</span> {/* Updated email */}
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600">
-                                <Phone size={16} className="text-sky-500" />{" "}
+                                <Mail size={16} className="text-red-600" />{" "}
+                                {/* Updated icon color */}
+                                <span>estudio@mirnadelgadoglavemakeup.com</span> {/* Updated email */}
+                            </li>
+                            <li className="flex items-center space-x-3 text-gray-600">
+                                <Phone size={16} className="text-red-600" />{" "}
                                 {/* Added phone icon */}
-                                <span>+1 (555) 123-4567</span> {/* Dummy phone number */}
+                                <span>(51) 913349438</span> {/* Dummy phone number */}
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600">
-                                <MapPin size={16} className="text-sky-500" />{" "}
+                                <MapPin size={16} className="text-red-600" />{" "}
                                 {/* Added location icon */}
-                                <span>123 Dream Drive, London, UK</span> {/* Dummy address */}
+                                <span>Urb. Quinta Tristan S-4 José Luis Bustamante y Rivero - Arequipa</span> {/* Dummy address */}
                             </li>
                         </ul>
                     </div>
@@ -144,20 +157,20 @@ const Footer = () => {
                     {" "}
                     {/* Updated border color */}
                     <p className="text-gray-500 text-sm">
-                        © {new Date().getFullYear()} DriveWell. All rights reserved.
+                        © {new Date().getFullYear()} mirnadelgadoglavemakeup. All rights reserved.
                     </p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a
                             href="#"
-                            className="text-gray-500 hover:text-sky-400 text-sm transition-colors"
+                            className="text-gray-500 hover:text-red-600 text-sm transition-colors"
                         >
-                            Privacy Policy
+                            Politicas de Privacidad
                         </a>
                         <a
                             href="#"
-                            className="text-gray-500 hover:text-sky-400 text-sm transition-colors"
+                            className="text-gray-500 hover:text-red-600 text-sm transition-colors"
                         >
-                            Terms of Service
+                            Terminos del Servicio
                         </a>
                     </div>
                 </div>
