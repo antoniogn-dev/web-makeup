@@ -35,7 +35,7 @@ const servicios: ServiciosProps[] = [
 const ServiciosSection = () => {
     return (
         <section className="py-10">
-            <h2 className={`${philosopher.className} antialiased font-bold text-red-600 text-2xl text-center mb-15`}>Servicios Para Cada Ocación</h2>
+            <h2 className={`${philosopher.className} antialiased font-bold text-red-600 text-2xl md:text-5xl text-center mb-15`}>Servicios Para Cada Ocación</h2>
             <div className="grid grid-cols-1 place-items-center gap-8 md:grid-cols-2 md:px-20 lg:px-10 lg:grid-cols-3 xl:grid-cols-4 xl:px-5 2xl:px-50">
                 {
                     servicios.map(item => (
