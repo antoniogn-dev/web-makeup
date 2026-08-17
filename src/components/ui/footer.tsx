@@ -18,7 +18,7 @@ const Footer = () => {
                     {/* Logo and Description */}
                     <div className="space-y-4">
                         <div className="flex items-center space-x-2">
-                           
+
                             <h2 className={`text-xl sm:text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r clash-display from-red-600 to-zinc-900`}>
                                 {" "}
                                 {/* Updated gradient */}
@@ -55,17 +55,17 @@ const Footer = () => {
                             </a>
                         </div>
 
-                         <h3 className="clash-display text-zinc-800  mb-4 pb-2 ">
+                        <h3 className="clash-display text-zinc-800  mb-4 pb-2 ">
                             {" "}
                             {/* Updated border color */}
                             Enlaces
                         </h3>
 
-                        <Formulario /> 
-                       
+                        <Formulario />
+
                     </div>
 
-                    
+
 
                     {/* Quick Links */}
                     <div className="md:ml-20">
@@ -132,22 +132,28 @@ const Footer = () => {
                             <li className="flex items-center space-x-3 text-gray-600">
                                 <Mail size={16} className="text-red-600" />{" "}
                                 {/* Updated icon color */}
-                                <span>mirnadelgadoglave@gmail.com</span> {/* Updated email */}
+                                <Link href="mailto:mirnadelgadoglave@gmail.com" >
+                                    <span>mirnadelgadoglave@gmail.com</span> {/* Updated email */}
+                                </Link>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600">
                                 <Mail size={16} className="text-red-600" />{" "}
                                 {/* Updated icon color */}
-                                <span>estudio@mirnadelgadoglavemakeup.com</span> {/* Updated email */}
+                                <Link href="mailto:estudio@mirnadelgadoglavemakeup.com">
+                                    <span>estudio@mirnadelgadoglavemakeup.com</span> {/* Updated email */}
+                                </Link>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600">
                                 <Phone size={16} className="text-red-600" />{" "}
                                 {/* Added phone icon */}
-                                <span>(51) 913349438</span> {/* Dummy phone number */}
+                                <Link href="tel:+51913349438">
+                                    <span>(51) 913349438</span> {/* Dummy phone number */}
+                                </Link>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600">
                                 <MapPin size={16} className="text-red-600" />{" "}
                                 {/* Added location icon */}
-                                <span>Urb. Quinta Tristan S-4 José Luis Bustamante y Rivero - Arequipa</span> {/* Dummy address */}
+                                <span className="w-full md:w-87.5">Urb. Quinta Tristan S-4 José Luis Bustamante y Rivero - Arequipa</span> {/* Dummy address */}
                             </li>
                         </ul>
                     </div>
@@ -157,7 +163,7 @@ const Footer = () => {
                     {" "}
                     {/* Updated border color */}
                     <p className="text-gray-500 text-sm">
-                        © {new Date().getFullYear()} mirnadelgadoglavemakeup. All rights reserved.
+                        © {new Date().getFullYear()} antoniodev. All rights reserved.
                     </p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <a
