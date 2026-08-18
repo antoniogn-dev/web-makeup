@@ -4,6 +4,7 @@ import HeroSection from "@/components/secciones/HeroSection"
 import PreguntasSection from "@/components/secciones/PreguntasSection"
 import ServiciosSection from "@/components/secciones/ServiciosSection"
 import MensajeSection from "@/components/secciones/MensajeSection";
+import GaleriaSection from "@/components/secciones/GaleriaSection";
 
 
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ const HomePage = () => {
             <ServiciosSection />
             <PreguntasSection />
             <MensajeSection />
-            <h1 className="text-5xl">Home Page</h1>
+            <GaleriaSection />
         </main>
     )
 }
