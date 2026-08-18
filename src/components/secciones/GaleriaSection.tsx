@@ -53,7 +53,7 @@ export default function GaleriaSection() {
                                 <span className="translate-y-4 text-sm font-medium text-white opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                                     {image.category.toUpperCase()}
                                 </span>
-                                 <span className="translate-y-4 text-sm font-medium text-gray-400 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                                <span className="translate-y-4 text-sm font-medium text-gray-400 opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100">
                                     © {image.author}
                                 </span>
 

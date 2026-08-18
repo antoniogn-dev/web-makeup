@@ -12,6 +12,7 @@ interface ImagenesData {
     mostrar_en: MostrarType
 }
 
+
 const galeriaImagenes: ImagenesData[] = [
     {
         id: 1,
@@ -143,3 +144,4 @@ const galeriaImagenes: ImagenesData[] = [
 
 
 export default galeriaImagenes
+
