@@ -6,6 +6,7 @@ import ServiciosSection from "@/components/secciones/ServiciosSection"
 import MensajeSection from "@/components/secciones/MensajeSection";
 import GaleriaSection from "@/components/secciones/GaleriaSection";
 import { ComentarioSection } from "@/components/secciones/ComentarioSection";
+import ContactosSection from "@/components/secciones/ContactosSection";
 
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ const HomePage = () => {
             <MensajeSection />
             <GaleriaSection />
             <ComentarioSection />
+            <ContactosSection />
         </main>
     )
 }
