@@ -12,6 +12,7 @@ interface GalleryImage {
 
 
 export default function GaleriaSection() {
+    
     const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
 
     const galeria_filtrada = galeriaImagenes.filter(img => img.mostrar_en === "portada")
