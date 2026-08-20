@@ -10,7 +10,7 @@ import ContactosSection from "@/components/secciones/ContactosSection";
 
 
 export const metadata: Metadata = {
-    title: "Home Page | Mirna Delgado Glave",
+    title: "Home | Mirna Delgado Glave",
     description: "Maquilladora profesional en Arequipa - Perú",
 };
 

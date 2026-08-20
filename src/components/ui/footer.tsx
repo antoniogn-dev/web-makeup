@@ -130,21 +130,21 @@ const Footer = () => {
                             Contacto
                         </h3>
                         <ul className="space-y-4">
-                            <li className="flex items-center space-x-3 text-gray-600">
+                            <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
                                 <Mail size={16} className="text-red-600" />{" "}
                                 {/* Updated icon color */}
                                 <Link href="mailto:mirnadelgadoglave@gmail.com" >
                                     <span>mirnadelgadoglave@gmail.com</span> {/* Updated email */}
                                 </Link>
                             </li>
-                            <li className="flex items-center space-x-3 text-gray-600">
+                            <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
                                 <Mail size={16} className="text-red-600" />{" "}
                                 {/* Updated icon color */}
                                 <Link href="mailto:estudio@mirnadelgadoglavemakeup.com">
                                     <span>estudio@mirnadelgadoglavemakeup.com</span> {/* Updated email */}
                                 </Link>
                             </li>
-                            <li className="flex items-center space-x-3 text-gray-600">
+                            <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
                                 <Phone size={16} className="text-red-600" />{" "}
                                 {/* Added phone icon */}
                                 <Link href="tel:+51913349438">

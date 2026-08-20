@@ -1,10 +1,7 @@
 import GaleriaPortafolio from "@/components/secciones/GaleriaPortafolio";
-import { Button } from "@/components/ui/button";
 import LlamadaAccion from "@/components/ui/LlamadaAccion";
 import { philosopher } from "@/libs/fonts"
 import { Metadata } from "next"
-import Image from "next/image";
-import Link from "next/link";
 
 
 export const metadata: Metadata = {
@@ -14,8 +11,6 @@ export const metadata: Metadata = {
 
 
 const PortafolioPage = () => {
-
-
 
     return (
         <section className="w-full">
@@ -36,7 +31,7 @@ const PortafolioPage = () => {
             {/* llamada a la accion */}
             <LlamadaAccion />
 
-            
+
         </section>
     )
 }

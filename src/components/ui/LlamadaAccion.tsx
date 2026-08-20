@@ -4,8 +4,6 @@ import { philosopher } from "@/libs/fonts"
 import Link from "next/link"
 
 
-
-
 const LlamadaAccion = () => {
     return (
         <div className="relative bg-[url('/images/fondo-rosado.jpg')] bg-contain bg-fixed flex flex-col h-150 items-center px-5 w-full lg:flex-row lg:items-center 2xl:px-80 lg:h-100 xl:gap-4">

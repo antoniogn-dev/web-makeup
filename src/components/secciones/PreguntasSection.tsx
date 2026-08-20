@@ -1,4 +1,3 @@
-import Image from "next/image"
 import { Button } from "../ui/button"
 import { philosopher } from "@/libs/fonts"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "../ui/accordion"
