@@ -21,7 +21,7 @@ const PortafolioPage = () => {
             <div className={`md:w-[70%] mx-auto mt-15 px-5 mb-40`}>
 
                 <h3 className={`${philosopher.className} antialiased  text-4xl font-bold mb-4`}>Portafolio</h3>
-                <p className="text-gray-500 md:w-280 mb-10">Descubre una selección de trabajos de maquillaje que resaltan la belleza y personalidad de cada rostro. Cada imagen refleja atención al detalle, técnica y creatividad, desde looks naturales y elegantes hasta estilos sofisticados para ocasiones especiales.</p>
+                <p className="text-gray-500 mb-10">Descubre una selección de trabajos de maquillaje que resaltan la belleza y personalidad de cada rostro. Cada imagen refleja atención al detalle, técnica y creatividad, desde looks naturales y elegantes hasta estilos sofisticados para ocasiones especiales.</p>
 
                 {/* galeria */}
                 <GaleriaPortafolio />
