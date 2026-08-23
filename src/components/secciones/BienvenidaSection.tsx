@@ -1,5 +1,6 @@
 import { philosopher } from "@/libs/fonts"
 import { Button } from "../ui/button"
+import Link from "next/link"
 
 
 
@@ -18,7 +19,7 @@ const BienvenidaSection = () => {
                 <h2 className={`${philosopher.className} antialiased text-3xl font-bold text-blue-400 mb-2 lg:text-4xl`}>Mi Estudio de Belleza</h2>
                 <p className="text-gray-500 lg:text-xl">Bienvenida a Mirna Delgado Glave Studio, un espacio dedicado a realzar tu belleza con elegancia, técnica y pasión. Nos especializamos en maquillaje profesional y peinados personalizados, diseñados para resaltar tu estilo único y acompañarte en tus momentos más importantes. Cada servicio es una experiencia pensada en ti, donde cuidamos cada detalle para que te sientas segura, radiante y completamente tú. Ya sea para un evento especial, una celebración o el día más importante de tu vida, estamos aquí para hacer que luzcas y te sientas espectacular.</p>
 
-                <Button className={`${philosopher.className} antialiased bg-red-600 mt-15 font-semibold text-xl py-6 px-5 hover:bg-red-800 self-start`}>SERVICIOS</Button>
+                <Link href="/servicios" className={`${philosopher.className} antialiased bg-red-600 mt-15 font-semibold text-xl py-4 px-10 hover:bg-red-800 self-start text-white rounded-lg`}>SERVICIOS</Link>
             </div>
         </section>
     )

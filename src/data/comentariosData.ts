@@ -32,7 +32,7 @@ const comentarios: ComentariosData[] = [
     },
     {
         id: 4,
-        name: "Elena Carpio",
+        name: "Andrea Carpio",
         title: "“Duró toda la celebración”",
         description: "Una de las cosas que más me preocupaba era que el maquillaje no durara. ¡Pero quedó impecable durante muchas horas! Incluso después del evento seguía viéndose hermoso.",
         valoration: 5
