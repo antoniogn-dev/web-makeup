@@ -77,8 +77,8 @@ export default function Navbar() {
                     <Button
                         variant={'outline'}
                         className={clsx(
-                            `border-red-600 bg-transparent`,
-                            scrolled ? `text-[18px] font-medium text-white transition py-4 px-3` : `text-[18px] font-medium text-red-600 transition py-6 px-4`
+                            `border-titulos bg-transparent hover:bg-titulos hover:text-white`,
+                            scrolled ? `text-[18px] font-medium border-white text-white transition py-4 px-3 hover:bg-white hover:text-titulos` : `text-[18px] font-medium text-titulos transition py-6 px-4`
                         )}>
                         <Link
                             href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"

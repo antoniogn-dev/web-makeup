@@ -62,7 +62,13 @@ const PaqueteCard = ({ paquete }: PaqueteCardProps) => {
                 </Accordion>
             </div>
 
-            <Link href="#" className="bg-titulos/20 text-black text-lg font-semibold py-4 px-4 mx-5 text-center tracking-wider border border-titulos rounded-lg hover:bg-white transition-colors">RESERVAR CITA</Link>
+            <Link
+                href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                target="_blank"
+                className="bg-titulos/20 text-black text-lg font-semibold py-4 px-4 mx-5 text-center tracking-wider border border-titulos rounded-lg hover:bg-white transition-colors"
+            >
+                RESERVAR CITA
+            </Link>
 
 
         </div>

@@ -17,7 +17,7 @@ const ServiciosPage = () => {
     return (
         <section className="w-full">
             {/* portada */}
-            <div className="bg-linear-to-r from-red-300 to-yellow-900 bg-cover bg-no-repeat h-25 md:h-60" />
+            <div className="bg-linear-to-l from-black to-yellow-900 bg-cover bg-no-repeat h-25 md:h-60" />
 
             {/* contenido */}
             <div className="flex flex-col justify-center items-center my-20">
@@ -44,7 +44,8 @@ const ServiciosPage = () => {
                                 Diseñado para la longevidad y la perfección radiante. Creamos un look atemporal que resista las lágrimas de alegría, los abrazos y la iluminación fotográfica, asegurando que luzcas impecable durante todo tu día especial.
                             </p>
                             <Link
-                                href="#"
+                                href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                                target="_blank"
                                 className="border-2 px-5 py-2 border-titulos rounded-md mt-10 font-semibold tracking-wider text-xl hover:bg-textos hover:text-white transition-colors duration-500 xl:text-xl"
                             >
                                 Reservar
@@ -67,7 +68,8 @@ const ServiciosPage = () => {
                                 Peinados elegantes y estructurados o sueltos y románticos, diseñados para complementar tu maquillaje y atuendo a la perfección.
                             </p>
                             <Link
-                                href="#"
+                                href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                                target="_blank"
                                 className="mt-10 font-semibold tracking-wider text-xl hover:text-textos border-b-2 border-b-titulos transition-colors duration-300 xl:text-2xl"
                             >
                                 Reservar
@@ -91,7 +93,8 @@ const ServiciosPage = () => {
                                 Ideal para eventos especiales, galas o fiestas. Un look que equilibra el glamour y la frescura para destacar en cualquier ocasión.
                             </p>
                             <Link
-                                href="#"
+                                href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                                target="_blank"
                                 className="mt-10 font-semibold tracking-wider text-xl hover:text-textos border-b-2 border-b-titulos transition-colors duration-300"
                             >
                                 Reservar
@@ -113,7 +116,8 @@ const ServiciosPage = () => {
                                 Looks vibrantes, juveniles y frescos que capturan la esencia de esta celebración inolvidable, manteniéndose fieles a su estilo personal.
                             </p>
                             <Link
-                                href="#"
+                                href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                                target="_blank"
                                 className="mt-10 font-semibold tracking-wider text-xl hover:text-textos border-b-2 border-b-titulos transition-colors duration-300"
                             >
                                 Reserva
@@ -135,7 +139,8 @@ const ServiciosPage = () => {
                                 Maquillaje de alta definición meticulosamente adaptado para iluminación de estudio y fotografía profesional, asegurando un acabado impecable en cámara.
                             </p>
                             <Link
-                                href="#"
+                                href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                                target="_blank"
                                 className="mt-10 font-semibold tracking-wider text-xl hover:text-textos border-b-2 border-b-titulos transition-colors duration-300"
                             >
                                 Reservar

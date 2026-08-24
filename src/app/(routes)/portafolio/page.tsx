@@ -15,7 +15,7 @@ const PortafolioPage = () => {
     return (
         <section className="w-full">
             {/* portada */}
-            <div className="bg-linear-to-r from-red-300 to-yellow-900 bg-cover bg-no-repeat h-25 md:h-60" />
+            <div className="bg-linear-to-l from-black to-yellow-900 bg-cover bg-no-repeat h-25 md:h-60" />
 
             {/* contenido */}
             <div className={`md:w-[70%] mx-auto mt-15 px-5 mb-40`}>
