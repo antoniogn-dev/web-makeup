@@ -21,7 +21,14 @@ const LogoLetras = () => {
     return (
         <Link href="/" className=" relative flex flex-col justify-center items-center cursor-pointer">
             <div className='relative w-37.5 h-15 md:w-55 md:h-31.25'>
-                <Image src="/images/logo-letras.png" alt='logo letras' fill priority sizes='90px' className='object-contain' />
+                <Image
+                    src="/images/logo-letras.png"
+                    alt='logo letras'
+                    fill
+                    priority
+                    sizes='90px'
+                    className='object-contain w-40 h-auto'
+                />
             </div>
             <p className={`${philosopher.className} absolute hidden md:block text-xl text-center tracking-widest w-62.5 text-black bg-white rounded-lg top-13 -left-3`}>Mirna delgado Glave</p>
             <p className={`${philosopher.className} hidden md:block text-white tracking-widest text-[22px] text-center text-shadow-lg -mt-4`}>Make up</p>

@@ -35,7 +35,13 @@ const ServiciosPage = () => {
                     <div className="flex flex-col bg-taupe-400/30 items-start rounded-lg md:w-[66%] md:flex-row md:items-center xl:w-[65%] xl:h-150">
 
                         <div className="relative mx-auto h-125 w-full xl:h-full overflow-hidden">
-                            <Image src="/services/novias.png" alt="novias" fill className="object-cover rounded-t-lg md:rounded-t-none md:rounded-l-lg transition-transform duration-500 hover:scale-105" />
+                            <Image
+                                src="/services/novias.png"
+                                alt="novias"
+                                fill
+                                priority
+                                sizes="90vw"
+                                className="object-cover rounded-t-lg md:rounded-t-none md:rounded-l-lg transition-transform duration-500 hover:scale-105" />
                         </div>
 
                         <div className="h-90 md:w-100 px-4 md:h-full xl:w-250 xl:p-10">
@@ -59,7 +65,13 @@ const ServiciosPage = () => {
                     <div className="flex flex-col bg-zinc-400/20 items-start rounded-lg md:w-[32%] xl:h-150">
 
                         <div className="relative mx-auto h-125 w-full md:h-full overflow-hidden">
-                            <Image src="/services/peinados.png" alt="novias" fill className="object-cover rounded-t-lg transition-transform duration-500 hover:scale-105" />
+                            <Image
+                                src="/services/peinados.png"
+                                alt="novias"
+                                fill
+                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                                className="object-cover rounded-t-lg transition-transform duration-500 hover:scale-105"
+                            />
                         </div>
 
                         <div className="px-4 pb-10">
@@ -84,7 +96,13 @@ const ServiciosPage = () => {
                     <div className="flex flex-col bg-taupe-400/30 items-start rounded-lg md:w-[32%] md:flex-col-reverse md:justify-between">
 
                         <div className="relative mx-auto h-125 w-full overflow-hidden">
-                            <Image src="/services/social.png" alt="novias" fill className="object-cover rounded-t-lg md:rounded-b-lg md:rounded-t-none transition-transform duration-500 hover:scale-105" />
+                            <Image
+                                src="/services/social.png"
+                                alt="novias"
+                                fill
+                                sizes="90vw"
+                                className="object-cover rounded-t-lg md:rounded-b-lg md:rounded-t-none transition-transform duration-500 hover:scale-105"
+                            />
                         </div>
 
                         <div className="px-4 mb-10 md:pt-5">
@@ -107,7 +125,13 @@ const ServiciosPage = () => {
                     <div className="flex flex-col bg-pink-200/40 items-start rounded-lg md:w-[32%] md:justify-between">
 
                         <div className="relative mx-auto h-125 w-full overflow-hidden">
-                            <Image src="/services/quinceaneras.png" alt="novias" fill className="object-cover rounded-t-lg transition-transform duration-500 hover:scale-105" />
+                            <Image
+                                src="/services/quinceaneras.png"
+                                alt="novias"
+                                fill
+                                sizes="90vw"
+                                className="object-cover rounded-t-lg transition-transform duration-500 hover:scale-105"
+                            />
                         </div>
 
                         <div className="px-4 mb-10">
@@ -130,7 +154,13 @@ const ServiciosPage = () => {
                     <div className="flex flex-col bg-mist-500/10 items-start rounded-lg md:w-[32%] md:flex-col-reverse md:justify-between">
 
                         <div className="relative mx-auto h-125 w-full overflow-hidden">
-                            <Image src="/services/sesion_fotos.png" alt="novias" fill className="object-cover rounded-t-lg md:rounded-b-lg md:rounded-t-none transition-transform duration-500 hover:scale-105" />
+                            <Image
+                                src="/services/sesion_fotos.png"
+                                alt="novias"
+                                fill
+                                sizes="90vw"
+                                className="object-cover rounded-t-lg md:rounded-b-lg md:rounded-t-none transition-transform duration-500 hover:scale-105"
+                            />
                         </div>
 
                         <div className="px-4 mb-10 md:pt-5">

@@ -15,7 +15,9 @@ const ModalPresentacion = () => {
                     src="/images/mirna-delgado-glave.png"
                     alt="Mirna Delgado Glave"
                     fill
-                    className="rounded-xl"
+                    priority
+                    sizes="(max-width: 768px) 100vw, 40vw"
+                    className="object-cover rounded-xl"
                 />
             </div>
             {/* descripcion */}

@@ -15,7 +15,10 @@ const ContactosSection = () => {
                     <h3 className={`${philosopher.className} antialiased text-5xl font-bold mb-6`}>Reserva tu Cita</h3>
                     <p className="font-semibold md:text-xl mb-10">Escríbeme y diseñaremos juntas el look perfecto para tu ocasión especial, cuidando cada detalle para que luzcas única.</p>
 
-                    <Link href="tel:+51913349438">
+                    <Link 
+                        href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
+                        target="_blank"
+                        >
                         <p className="flex items-center gap-3 cursor-pointer mb-5">
                             <RiWhatsappLine className="text-titulos size-4.5 md:size-5.75" />
                             <span className="hover:text-titulos hover:font-semibold text-[14px] md:text-[18px]">+51 913 349 438</span>

@@ -28,7 +28,13 @@ const ModalServicios = () => {
                         className="relative w-full aspect-auto flex-1 flex justify-center cursor-pointer group"
                         onClick={() => setOpenImage("/images/diploma1.webp")}
                     >
-                        <Image src="/images/diploma1.webp" alt="diploma maquillaje" fill className="rounded-xl object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
+                        <Image
+                            src="/images/diploma1.webp"
+                            alt="diploma maquillaje"
+                            fill
+                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                            className="rounded-xl object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                        />
                     </div>
 
                     {/* diplomas2 */}
@@ -36,7 +42,13 @@ const ModalServicios = () => {
                         className="relative w-full aspect-auto flex-1 flex justify-center cursor-pointer group"
                         onClick={() => setOpenImage("/images/diploma2.webp")}
                     >
-                        <Image src="/images/diploma2.webp" alt="diploma maquillaje" fill className="rounded-xl object-cover transition-transform duration-300 group-hover:scale-[1.02]" />
+                        <Image
+                            src="/images/diploma2.webp"
+                            alt="diploma maquillaje"
+                            fill
+                            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                            className="rounded-xl object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                        />
                     </div>
 
                 </div>

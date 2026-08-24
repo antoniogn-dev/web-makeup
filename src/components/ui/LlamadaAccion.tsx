@@ -11,7 +11,13 @@ const LlamadaAccion = () => {
             {/* Capa oscura */}
             <div className="absolute inset-0 bg-red-700/50" />
 
-            <Image src="/images/logo-letras.png" height={150} width={180} alt="fondo Mirna Delgado" className="relative my-10 lg:mt-0" />
+            <Image
+                src="/images/logo-letras.png"
+                height={150}
+                width={180}
+                alt="fondo Mirna Delgado"
+                className="relative my-10 lg:mt-0 w-50"
+            />
 
             <div className="relative flex flex-col">
                 <h3 className={`${philosopher.className} antialiased text-white text-4xl font-bold text-center text-shadow-md text-shadow-black/50 mb-5 lg:px-10 xl:text-5xl`}>Agenda tu experiencia de belleza y resalta lo mejor de ti.</h3>

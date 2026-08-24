@@ -1,3 +1,5 @@
+import ContactosSection from "@/components/secciones/ContactosSection"
+import LlamadaAccion from "@/components/ui/LlamadaAccion"
 
 
 const ContactoPage = () => {
@@ -5,6 +7,12 @@ const ContactoPage = () => {
         <section>
             {/* portada */}
             <div className="bg-linear-to-l from-black to-yellow-900 bg-cover bg-no-repeat h-25 md:h-60" />
+
+            {/* contenido */}
+            <div className="">
+                <ContactosSection />
+                <LlamadaAccion />
+            </div>
 
         </section>
     )

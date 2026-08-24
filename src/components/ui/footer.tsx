@@ -20,11 +20,14 @@ const Footer = () => {
                     <div className="space-y-4">
                         <div className="flex items-center space-x-2">
 
-                            <Image src="/images/logo-letras-rojo.png" alt="logo mirna delgado" height={100} width={100}/>
-                            {/* <h2 className={`text-xl sm:text-2xl font-bold bg-clip-text text-transparent bg-linear-to-r clash-display from-red-600 to-zinc-900`}>
-                                {" "}
-                                mirnadelgadoglavemakeup.com
-                            </h2> */}
+                            <Image 
+                                src="/images/logo-letras-rojo.png" 
+                                alt="logo mirna delgado" 
+                                height={100} 
+                                width={100}
+                                className="w-40 h-auto" 
+                            />
+                            
                         </div>
                         <p className="text-gray-600 max-w-md">
                             Belleza, elegancia y confianza en cada detalle. Creamos looks personalizados que reflejan tu estilo y personalidad.
