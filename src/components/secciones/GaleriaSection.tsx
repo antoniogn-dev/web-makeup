@@ -22,7 +22,7 @@ export default function GaleriaSection() {
         <section className="flex flex-col items-center px-5 lg:w-[70%] mx-auto my-30">
 
             <div className="w-full mb-8">
-                <h3 className={`${philosopher.className} antialiased text-2xl lg:text-5xl md:text-2xl font-bold text-red-600 mb-4`}>Galeria de Imagenes</h3>
+                <h3 className={`${philosopher.className} antialiased text-2xl lg:text-5xl md:text-2xl font-bold text-titulos mb-4`}>Galeria de Imagenes</h3>
                 <p className="text-gray-600 text-sm md:text-lg">Galeria - Conoce nuestro trabajo a través de una selección de imágenes.</p>
 
             </div>

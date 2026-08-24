@@ -104,7 +104,7 @@ export function ComentarioSection() {
             <div className="mb-10 flex flex-col items-center">
                 <div className="flex w-full flex-col items-center px-5 md:w-[60%]">
                     <h3
-                        className={`${philosopher.className} mb-5 text-center text-3xl font-bold text-red-600 antialiased md:text-5xl`}
+                        className={`${philosopher.className} mb-5 text-center text-3xl font-bold text-titulos antialiased md:text-5xl`}
                     >
                         Opiniones
                     </h3>
@@ -167,7 +167,7 @@ export function ComentarioSection() {
                         }}
                         aria-label={`Ir al comentario ${index + 1}`}
                         className={`h-2.5 rounded-full transition-all ${realIndex === index
-                            ? "w-6 bg-red-600"
+                            ? "w-6 bg-titulos"
                             : "w-2.5 bg-gray-300"
                             }`}
                     />

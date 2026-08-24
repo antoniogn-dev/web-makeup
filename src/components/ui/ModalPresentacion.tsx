@@ -20,7 +20,7 @@ const ModalPresentacion = () => {
             </div>
             {/* descripcion */}
             <div className="flex flex-col md:w-200 px-10 py-8">
-                <h3 className={`${philosopher.className} antialiased text-red-600 font-bold text-4xl md:text-5xl mb-1`}>Mirna delgado Glave</h3>
+                <h3 className={`${philosopher.className} antialiased text-titulos font-bold text-4xl md:text-5xl mb-1`}>Mirna delgado Glave</h3>
 
                 <h4 className="font-bold text-2xl mb-6">Maquilladora Profesional</h4>
 
@@ -39,14 +39,14 @@ const ModalPresentacion = () => {
                     <div className="">
                         <ul>
                             <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
-                                <Mail size={16} className="text-red-600" />{" "}
+                                <Mail size={16} className="text-titulos" />{" "}
                                 {/* Updated icon color */}
                                 <Link href="mailto:mirnadelgadoglave@gmail.com" >
                                     <span>mirnadelgadoglave@gmail.com</span> {/* Updated email */}
                                 </Link>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
-                                <Mail size={16} className="text-red-600" />{" "}
+                                <Mail size={16} className="text-titulos" />{" "}
                                 {/* Updated icon color */}
                                 <Link href="mailto:estudio@mirnadelgadoglavemakeup.com">
                                     <span>estudio@mirnadelgadoglavemakeup.com</span> {/* Updated email */}
@@ -56,7 +56,7 @@ const ModalPresentacion = () => {
                     </div>
 
                     <div className="flex items-center gap-x-3 text-gray-600 hover:text-red-600 mt-2 md:mt-0">
-                        <Phone size={16} className="text-red-600" />{" "}
+                        <Phone size={16} className="text-titulos" />{" "}
                         {/* Added phone icon */}
                         <Link href="tel:+51913349438">
                             <span>(51) 913349438</span> {/* Dummy phone number */}

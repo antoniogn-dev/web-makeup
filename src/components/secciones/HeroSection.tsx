@@ -39,7 +39,7 @@ const HeroSection = () => {
                     </h2>
                 </div>
 
-                <div className="bg-linear-to-l from-red-600 to-red-800 w-25 h-1 rounded-lg mb-5" />
+                <div className="bg-titulos shadow-md shadow-black/50 w-25 h-1 rounded-lg mb-5" />
                 <p
                     className="text-lg text-shadow-black text-shadow-xs w-[60%] md:w-200 md:text-3xl"
                 >
@@ -47,7 +47,7 @@ const HeroSection = () => {
                 </p>
 
                 <Button
-                    className={`${philosopher.className} bg-linear-to-tr from-red-600 to-red-800/60 w-50 py-6 font-semibold text-lg hover:bg-red-800 transition-colors duration-300 mt-10`}
+                    className={`${philosopher.className} bg-titulos w-50 py-6 font-semibold text-lg hover:bg-titulos/70 transition-colors duration-300 mt-10 border border-white`}
                 >
                     <Link
                         href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"

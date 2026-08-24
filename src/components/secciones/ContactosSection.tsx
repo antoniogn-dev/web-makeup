@@ -7,34 +7,34 @@ import { RiMapPinLine } from 'react-icons/ri'
 
 const ContactosSection = () => {
     return (
-        <section className="bg-rose-300 flex justify-center">
+        <section className="bg-fondo flex justify-center">
             <div className="flex flex-col md:flex-row lg:w-[90%] xl:w-[70%] w-full lg:py-20 mb-20 px-5">
                 {/* datos */}
                 <div className="flex flex-col lg:w-1/2 p-5">
-                    <h5 className={`text-red-600 text-2xl mb-3`}>Contacto</h5>
+                    <h5 className={`text-titulos text-2xl mb-3`}>Contacto</h5>
                     <h3 className={`${philosopher.className} antialiased text-5xl font-bold mb-6`}>Reserva tu Cita</h3>
                     <p className="font-semibold md:text-xl mb-10">Escríbeme y diseñaremos juntas el look perfecto para tu ocasión especial, cuidando cada detalle para que luzcas única.</p>
 
                     <Link href="tel:+51913349438">
                         <p className="flex items-center gap-3 cursor-pointer mb-5">
-                            <RiWhatsappLine className="text-red-600 size-4.5 md:size-5.75" />
-                            <span className="hover:text-red-600 hover:font-semibold text-[14px] md:text-[18px]">+51 913 349 438</span>
+                            <RiWhatsappLine className="text-titulos size-4.5 md:size-5.75" />
+                            <span className="hover:text-titulos hover:font-semibold text-[14px] md:text-[18px]">+51 913 349 438</span>
                         </p>
                     </Link>
                     <Link href="mailto:mirnadelgadoglave@gmail.com">
                         <p className="flex items-center gap-3 cursor-pointer mb-5">
-                            <RiMailLine className="text-red-600 size-4.5 md:size-5.75" />
-                            <span className="hover:text-red-600 hover:font-semibold text-[14px] md:text-[18px]">mirnadelgadoglave@gmail.com</span>
+                            <RiMailLine className="text-titulos size-4.5 md:size-5.75" />
+                            <span className="hover:text-titulos hover:font-semibold text-[14px] md:text-[18px]">mirnadelgadoglave@gmail.com</span>
                         </p>
                     </Link>
                     <Link href="mailto:estudio@mirnadelgadoglavemakeup.com">
                         <p className="flex items-center gap-3 cursor-pointer mb-5">
-                            <RiMailLine className="text-red-600 size-4.5 md:size-5.75" />
-                            <span className="hover:text-red-600 hover:font-semibold text-[14px] md:text-[18px]">estudio@mirnadelgadoglavemakeup.com</span>
+                            <RiMailLine className="text-titulos size-4.5 md:size-5.75" />
+                            <span className="hover:text-titulos hover:font-semibold text-[14px] md:text-[18px]">estudio@mirnadelgadoglavemakeup.com</span>
                         </p>
                     </Link>
                     <p className="flex items-center gap-3">
-                        <RiMapPinLine className="text-red-600 size-4.5 md:size-5.75" />
+                        <RiMapPinLine className="text-titulos size-4.5 md:size-5.75" />
                         <span className="md:text-[18px] text-[14px] w-full md:w-125">Urb. Quinta tristan S-4 José Luis Bustamante y Rivero Arequipa - Perú</span>
                     </p>
                 </div>

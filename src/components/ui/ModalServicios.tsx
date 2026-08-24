@@ -15,7 +15,7 @@ const ModalServicios = () => {
     return (
 
         <div className="flex flex-col py-30 px-10">
-            <h4 className={`${philosopher.className} antialiased text-red-600 font-bold text-4xl mb-3 sm:text-center`}>Te ofrecemos soluciones</h4>
+            <h4 className={`${philosopher.className} antialiased text-titulos font-bold text-4xl mb-3 sm:text-center`}>Te ofrecemos soluciones</h4>
             <p className="mb-10 sm:text-center">Disponemos de un equipo dedicado a brindarte una experiencia increible.</p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">

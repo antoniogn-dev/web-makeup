@@ -15,11 +15,11 @@ const BienvenidaSection = () => {
 
             </div>
             <div className="flex flex-col mt-10 p-4 sm:p-10 lg:w-1/3 2xl:w-162.5 lg:justify-center">
-                <h4 className={`${philosopher.className} antialiased text-red-600 font-bold text-xl mb-4 lg:text-2xl`}>Bienvenidas</h4>
-                <h2 className={`${philosopher.className} antialiased text-3xl font-bold text-blue-400 mb-2 lg:text-4xl`}>Mi Estudio de Belleza</h2>
+                <h4 className={`${philosopher.className} antialiased text-textos font-bold text-xl mb-4 lg:text-2xl`}>Bienvenidas</h4>
+                <h2 className={`${philosopher.className} antialiased text-3xl font-bold text-titulos mb-2 lg:text-4xl`}>Mi Estudio de Belleza</h2>
                 <p className="text-gray-500 lg:text-xl">Bienvenida a Mirna Delgado Glave Studio, un espacio dedicado a realzar tu belleza con elegancia, técnica y pasión. Nos especializamos en maquillaje profesional y peinados personalizados, diseñados para resaltar tu estilo único y acompañarte en tus momentos más importantes. Cada servicio es una experiencia pensada en ti, donde cuidamos cada detalle para que te sientas segura, radiante y completamente tú. Ya sea para un evento especial, una celebración o el día más importante de tu vida, estamos aquí para hacer que luzcas y te sientas espectacular.</p>
 
-                <Link href="/servicios" className={`${philosopher.className} antialiased bg-red-600 mt-15 font-semibold text-xl py-4 px-10 hover:bg-red-800 self-start text-white rounded-lg`}>SERVICIOS</Link>
+                <Link href="/servicios" className={`${philosopher.className} antialiased bg-titulos mt-15 font-semibold text-xl py-4 px-10 hover:bg-titulos/70 self-start text-white rounded-lg`}>SERVICIOS</Link>
             </div>
         </section>
     )

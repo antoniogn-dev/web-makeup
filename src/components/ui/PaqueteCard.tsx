@@ -13,8 +13,8 @@ interface PaqueteCardProps {
 const PaqueteCard = ({ paquete }: PaqueteCardProps) => {
     return (
         <div className={clsx(
-            `relative flex flex-col border-2 rounded-xl py-10 border-red-900/50 justify-between h-300 shadow-md shadow-black/3`,
-            paquete.id === "platinum" ? "bg-[#fdf0d5]/60" : "bg-[#fdf0d5]/30"
+            `relative flex flex-col border-2 rounded-xl py-10 border-titulos justify-between h-300 shadow-md shadow-black/3`,
+            paquete.id === "platinum" ? "bg-fondo" : "bg-fondo/30"
         )}>
             <div>
                 <div className="px-5">
@@ -23,7 +23,7 @@ const PaqueteCard = ({ paquete }: PaqueteCardProps) => {
 
                     {/* badget */}
                     <p className={clsx(
-                        `absolute -top-5 left-1/2 -translate-x-1/2 bg-red-600 text-white font-bold text-center w-65 py-2 rounded-full text-md tracking-wider`,
+                        `absolute -top-5 left-1/2 -translate-x-1/2 bg-titulos text-white font-bold text-center w-65 py-2 rounded-full text-md tracking-wider`,
                         paquete.badge ? "block" : "hidden"
                     )}
                     >
@@ -44,13 +44,13 @@ const PaqueteCard = ({ paquete }: PaqueteCardProps) => {
                             value={item.value}
                             className=" px-4"
                         >
-                            <AccordionTrigger className={`font-bold text-lg text-red-600/70`}>{item.trigger}</AccordionTrigger>
+                            <AccordionTrigger className={`font-bold text-lg text-titulos`}>{item.trigger}</AccordionTrigger>
                             <AccordionContent className={`text-gray-500`}>
                                 {
                                     item.data.map((dato, index) => (
                                         <div key={index} className="flex items-center gap-3 mb-2">
                                             <div>
-                                                <IoCheckmarkSharp className="text-red-500 size-4" />
+                                                <IoCheckmarkSharp className="text-titulos size-4" />
                                             </div>
                                             <span>{dato}</span>
                                         </div>
@@ -62,7 +62,7 @@ const PaqueteCard = ({ paquete }: PaqueteCardProps) => {
                 </Accordion>
             </div>
 
-            <Link href="#" className="bg-red-600/20 text-red-700 text-lg font-semibold py-4 px-4 mx-5 text-center tracking-wider border border-red-600 rounded-lg hover:bg-red-100 transition-colors">RESERVAR CITA</Link>
+            <Link href="#" className="bg-titulos/20 text-black text-lg font-semibold py-4 px-4 mx-5 text-center tracking-wider border border-titulos rounded-lg hover:bg-white transition-colors">RESERVAR CITA</Link>
 
 
         </div>

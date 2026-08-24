@@ -5,7 +5,10 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-    --color-primary-red: #92003A;
+    --color-primary-red: oklch(57.7% 0.245 27.325);
+    --color-titulos: #b8936a;
+    --color-textos: #9a8a7e;
+    --color-fondo: #F3EDE6;
 }
 
 @theme inline {

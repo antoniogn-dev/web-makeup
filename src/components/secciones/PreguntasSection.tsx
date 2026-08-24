@@ -82,7 +82,7 @@ const PreguntasSection = () => {
 
                 </div>
 
-                <div className="flex flex-col p-5 gap-4 mb-8 w-full justify-center bg-green-500/20 md:flex-row rounded-b-xl ">
+                <div className="flex flex-col p-5 gap-4 mb-8 w-full justify-center bg-green-600/20 md:flex-row rounded-b-xl ">
 
                     <Accordion
                         className="max-w-lg rounded-lg border"
@@ -117,9 +117,9 @@ const PreguntasSection = () => {
                     </Accordion>
                 </div>
 
-                <p className="text-blue-500 text-xl font-semibold text-center mb-8">¿Si tienes más preguntas?</p>
+                <p className="text-textos text-xl font-semibold text-center mb-8">¿Si tienes más preguntas?</p>
 
-                <Button className={`${philosopher.className} antialiased bg-red-600 text-xl font-semibold text-white tracking-wider py-6 px-8 hover:bg-red-800 cursor-pointer`}>
+                <Button className={`${philosopher.className} antialiased bg-titulos text-xl font-semibold text-white tracking-wider py-6 px-8 hover:bg-textos cursor-pointer`}>
                     <Link
                         href="https://wa.me/51913349438?text=Hola%2C%20quiero%20reservar%20una%20cita"
                         target='_blank'

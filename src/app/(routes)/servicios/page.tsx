@@ -1,3 +1,4 @@
+import ExperienciaSection from "@/components/secciones/ExperienciaSection";
 import PaquetesSection from "@/components/secciones/PaquetesSection";
 import LlamadaAccion from "@/components/ui/LlamadaAccion";
 import { philosopher } from "@/libs/fonts";
@@ -38,13 +39,13 @@ const ServiciosPage = () => {
                         </div>
 
                         <div className="h-90 md:w-100 px-4 md:h-full xl:w-250 xl:p-10">
-                            <h3 className={`${philosopher.className} antialiased text-red-600/60 text-4xl font-bold mt-8 mb-5 xl:text-5xl`}>Maquillaje de Novias</h3>
+                            <h3 className={`${philosopher.className} antialiased text-titulos text-4xl font-bold mt-8 mb-5 xl:text-5xl`}>Maquillaje de Novias</h3>
                             <p className="text-gray-500 mb-15 xl:mb-20">
                                 Diseñado para la longevidad y la perfección radiante. Creamos un look atemporal que resista las lágrimas de alegría, los abrazos y la iluminación fotográfica, asegurando que luzcas impecable durante todo tu día especial.
                             </p>
                             <Link
                                 href="#"
-                                className="border-2 px-5 py-2 border-red-600/60 rounded-md mt-10 font-semibold tracking-wider text-xl hover:bg-red-600/60 hover:text-white transition-colors duration-500 xl:text-xl"
+                                className="border-2 px-5 py-2 border-titulos rounded-md mt-10 font-semibold tracking-wider text-xl hover:bg-textos hover:text-white transition-colors duration-500 xl:text-xl"
                             >
                                 Reservar
                             </Link>
@@ -61,13 +62,13 @@ const ServiciosPage = () => {
                         </div>
 
                         <div className="px-4 pb-10">
-                            <h3 className={`${philosopher.className} antialiased text-red-600/60 text-4xl font-bold mt-8 mb-5 xl:text-5xl`}>Peinados</h3>
+                            <h3 className={`${philosopher.className} antialiased text-titulos text-4xl font-bold mt-8 mb-5 xl:text-5xl`}>Peinados</h3>
                             <p className="text-gray-500 mb-10">
                                 Peinados elegantes y estructurados o sueltos y románticos, diseñados para complementar tu maquillaje y atuendo a la perfección.
                             </p>
                             <Link
                                 href="#"
-                                className="mt-10 font-semibold tracking-wider text-xl hover:text-red-600/60 border-b-2 border-b-red-600/60 transition-colors duration-300 xl:text-2xl"
+                                className="mt-10 font-semibold tracking-wider text-xl hover:text-textos border-b-2 border-b-titulos transition-colors duration-300 xl:text-2xl"
                             >
                                 Reservar
                             </Link>
@@ -85,13 +86,13 @@ const ServiciosPage = () => {
                         </div>
 
                         <div className="px-4 mb-10 md:pt-5">
-                            <h3 className={`${philosopher.className} antialiased text-red-600/60 text-4xl font-bold mt-8 mb-5 md:mt-0 xl:text-5xl`}>Maquillaje Social</h3>
+                            <h3 className={`${philosopher.className} antialiased text-titulos text-4xl font-bold mt-8 mb-5 md:mt-0 xl:text-5xl`}>Maquillaje Social</h3>
                             <p className="text-gray-500 mb-10">
                                 Ideal para eventos especiales, galas o fiestas. Un look que equilibra el glamour y la frescura para destacar en cualquier ocasión.
                             </p>
                             <Link
                                 href="#"
-                                className="mt-10 font-semibold tracking-wider text-xl hover:text-red-600/60 border-b-2 border-b-red-600/60 transition-colors duration-300"
+                                className="mt-10 font-semibold tracking-wider text-xl hover:text-textos border-b-2 border-b-titulos transition-colors duration-300"
                             >
                                 Reservar
                             </Link>
@@ -107,13 +108,13 @@ const ServiciosPage = () => {
                         </div>
 
                         <div className="px-4 mb-10">
-                            <h3 className={`${philosopher.className} antialiased text-red-600/60 text-4xl font-bold mt-8 mb-5 md:mt-0`}>Quinceañeras</h3>
+                            <h3 className={`${philosopher.className} antialiased text-titulos text-4xl font-bold mt-8 mb-5 md:mt-0`}>Quinceañeras</h3>
                             <p className="text-gray-500 mb-10">
                                 Looks vibrantes, juveniles y frescos que capturan la esencia de esta celebración inolvidable, manteniéndose fieles a su estilo personal.
                             </p>
                             <Link
                                 href="#"
-                                className="mt-10 font-semibold tracking-wider text-xl hover:text-red-600/60 border-b-2 border-b-red-600/60 transition-colors duration-300"
+                                className="mt-10 font-semibold tracking-wider text-xl hover:text-textos border-b-2 border-b-titulos transition-colors duration-300"
                             >
                                 Reserva
                             </Link>
@@ -129,13 +130,13 @@ const ServiciosPage = () => {
                         </div>
 
                         <div className="px-4 mb-10 md:pt-5">
-                            <h3 className={`${philosopher.className} antialiased text-red-600/60 text-4xl font-bold mt-8 mb-5 md:mt-0`}>Sesión de Fotos</h3>
+                            <h3 className={`${philosopher.className} antialiased text-titulos text-4xl font-bold mt-8 mb-5 md:mt-0`}>Sesión de Fotos</h3>
                             <p className="text-gray-500 mb-10">
                                 Maquillaje de alta definición meticulosamente adaptado para iluminación de estudio y fotografía profesional, asegurando un acabado impecable en cámara.
                             </p>
                             <Link
                                 href="#"
-                                className="mt-10 font-semibold tracking-wider text-xl hover:text-red-600/60 border-b-2 border-b-red-600/60 transition-colors duration-300"
+                                className="mt-10 font-semibold tracking-wider text-xl hover:text-textos border-b-2 border-b-titulos transition-colors duration-300"
                             >
                                 Reservar
                             </Link>
@@ -147,12 +148,12 @@ const ServiciosPage = () => {
 
             </div>
 
-             {/* paquetes */}
+            {/* paquetes */}
             <div className="my-30">
 
                 {/* titulos */}
                 <div className="flex flex-col items-center md:w-200 mx-auto mb-10">
-                    <p className="text-red-600 font-semibold text-lg tracking-wider mb-4 xl:text-xl">Nuestros Paquetes</p>
+                    <p className="text-titulos font-semibold text-lg tracking-wider mb-4 xl:text-xl">Nuestros Paquetes</p>
                     <p className={`${philosopher.className} antialiased font-bold text-5xl mb-8 text-center`}>Elige tu experiencia nupcial</p>
                     <p className="text-gray-500 text-center xl:text-xl">diseñados para realzar tu belleza natural con la maxima elegancia y sofisticación. Cada detalle de tu gran dia merece ser perfecto.</p>
                 </div>
@@ -164,12 +165,19 @@ const ServiciosPage = () => {
 
             </div>
 
+
+            {/* experiencia */}
+            <div className="">
+                <ExperienciaSection />
+            </div>
+
+
             {/* llamada a la accion */}
             <div className="">
                 <LlamadaAccion />
             </div>
 
-           
+
 
         </section>
     )

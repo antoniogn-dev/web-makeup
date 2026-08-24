@@ -43,8 +43,8 @@ const GaleriaPortafolio = () => {
                             key={item}
                             onClick={() => handleClick(item)}
                             className={clsx(
-                                "mx-1 text-[10px] border px-2 py-1 rounded-full cursor-pointer hover:bg-red-700 hover:text-white transition-colors",
-                                active === item ? "bg-red-700 text-white" : "bg-transparent text-black"
+                                "mx-1 text-[10px] border px-2 py-1 rounded-full cursor-pointer hover:bg-titulos hover:text-white transition-colors",
+                                active === item ? "bg-titulos text-white" : "bg-transparent text-black"
                             )}
                         >
                             {item.toLocaleUpperCase()}

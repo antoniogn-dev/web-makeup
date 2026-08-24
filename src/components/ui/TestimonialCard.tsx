@@ -21,16 +21,16 @@ const TestimonialCard = ({ name, title, description, valoration }: ComentariosPr
                 {/* estrellas */}
                 <div className='flex gap-1 mb-8'>
                     {Array.from({ length: valoration }, (_, index) => (
-                        <span key={index}><RiStarFill className='text-red-600/70'/></span>
+                        <span key={index}><RiStarFill className='text-titulos'/></span>
                     ))}
                     {Array.from({ length: desvaloration }, (_, index) => (
-                        <span key={index}><RiStarLine className='text-red-600/70'/></span>
+                        <span key={index}><RiStarLine className='text-titulos'/></span>
                     ))}
                 </div>
                 {/* titulo */}
                 <h3 className={`${philosopher.className} antialiased text-3xl font-bold font-serif italic mb-5`}>{title}</h3>
                 {/* descripcion */}
-                <p className='text-red-950 mb-10'>{description}</p>
+                <p className='text-textos mb-10'>{description}</p>
             </div>
 
             {/* clienta */}
@@ -40,7 +40,7 @@ const TestimonialCard = ({ name, title, description, valoration }: ComentariosPr
                 </div>
                 <div>
                     <p className='font-bold'>{name}</p>
-                    <p className='text-red-900 text-[14px] font-semibold tracking-wider'>CLIENTE VERIFICADA</p>
+                    <p className='text-titulos text-[14px] font-semibold tracking-wider'>CLIENTE VERIFICADA</p>
                 </div>
             </div>
         </div>
