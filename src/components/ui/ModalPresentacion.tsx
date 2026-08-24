@@ -9,7 +9,7 @@ const ModalPresentacion = () => {
     return (
         <div className="flex flex-col md:flex-row justify-center items-center p-2 lg:py-20">
             {/* imagen */}
-            <div className="relative w-full aspect-square md:aspect-auto md:size-200 flex justify-center">
+            <div className="relative w-[90%] h-137.5 aspect-square md:aspect-auto md:size-200 flex justify-center">
                 {/* relative md:w-[600px] flex justify-center md:size-[800px] */}
                 <Image
                     src="/images/mirna-delgado-glave.png"

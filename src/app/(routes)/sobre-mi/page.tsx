@@ -19,7 +19,7 @@ const SobreMiPage = () => {
             {/* contenido pagina */}
 
             {/* presentacion */}
-            <div className="md:w-[80%] mx-auto py-10 2xl:w-[70%]">
+            <div className="max-w-312.5 md:w-[80%] mx-auto py-10 2xl:w-[70%]">
 
                 <ModalPresentacion />
 

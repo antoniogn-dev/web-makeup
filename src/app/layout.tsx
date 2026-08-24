@@ -3,6 +3,7 @@ import "./globals.css";
 import { inter } from "@/libs/fonts";
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/ui/footer";
+import BotonWhatsapp from "@/components/ui/BotonWhatsapp";
 
 
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <body className="min-h-full flex flex-col">
                 <Navbar />
                 {children}
+                <BotonWhatsapp />
                 <Footer />
             </body>
         </html>

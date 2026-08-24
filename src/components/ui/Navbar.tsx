@@ -118,7 +118,7 @@ export default function Navbar() {
                 {/* menu principal */}
 
                 <div className="flex justify-between items-center w-full h-15 px-5 mt-5">
-                    <Link href="/" className="relative flex items-center h-10 w-20 p-5">
+                    <Link href="/" className="relative flex items-center h-10 w-20 p-5" onClick={() => setOpen(false)}>
                         <Image src="/images/logo-letras.png" alt='logo letras' fill sizes='80px' priority className='object-cover scale-110' />
                     </Link>
 
@@ -132,11 +132,11 @@ export default function Navbar() {
                 <ul className="flex flex-col justify-center items-center gap-6 mt-10 text-2xl font-bold text-gray-300">
                     {
                         navLinks.map(link => (
-                            <li key={link.label} className='text-center border-b border-slate-800 py-4 w-[70%] hover:bg-gray-800 rounded-lg transition-all duration-300'>
-                                <Link href={link.link} onClick={() => setOpen(false)} >
+                            <Link key={link.label} href={link.link} onClick={() => setOpen(false)} className='text-center border-b border-slate-800 py-4 w-[70%] hover:bg-gray-800 rounded-lg transition-all duration-300'>
+                                <li  >
                                     {link.label}
-                                </Link>
-                            </li>
+                                </li>
+                            </Link>
                         ))
                     }
                 </ul>

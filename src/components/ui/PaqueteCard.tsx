@@ -13,7 +13,7 @@ interface PaqueteCardProps {
 const PaqueteCard = ({ paquete }: PaqueteCardProps) => {
     return (
         <div className={clsx(
-            `relative flex flex-col border-2 rounded-xl py-10 border-titulos justify-between h-300 shadow-md shadow-black/3`,
+            `relative flex flex-col border-2 rounded-xl py-10 border-titulos justify-between items-center h-300 shadow-md shadow-black/30 lg:w-[full]`,
             paquete.id === "platinum" ? "bg-fondo" : "bg-fondo/30"
         )}>
             <div>
