@@ -1,5 +1,13 @@
 import ContactosSection from "@/components/secciones/ContactosSection"
 import LlamadaAccion from "@/components/ui/LlamadaAccion"
+import { Metadata } from "next";
+
+
+
+export const metadata: Metadata = {
+    title: "Contacto | Mirna Delgado Glave",
+    description: "Contacto Mirna Delgado Glave Maquilladora profesional en Arequipa - Perú",
+};
 
 
 const ContactoPage = () => {
