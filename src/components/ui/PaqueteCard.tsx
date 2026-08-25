@@ -13,12 +13,12 @@ interface PaqueteCardProps {
 const PaqueteCard = ({ paquete }: PaqueteCardProps) => {
     return (
         <div className={clsx(
-            `relative flex flex-col border-2 rounded-xl py-10 border-titulos justify-between items-center h-300 shadow-md shadow-black/30 lg:w-[full]`,
+            `relative flex flex-col border-2 rounded-xl py-10 border-titulos justify-between items-center h-300 shadow-md shadow-black/30 lg:w-full`,
             paquete.id === "platinum" ? "bg-fondo" : "bg-fondo/30"
         )}>
             <div>
                 <div className="px-5">
-                    <h4 className={`${philosopher.className} antialiase text-3xl font-semibold`}>Novia {paquete.name}</h4>
+                    <h4 className={`${philosopher.className} antialiased text-3xl font-semibold`}>Novia {paquete.name}</h4>
                     <p>{paquete.tagline}</p>
 
                     {/* badget */}
