@@ -25,14 +25,14 @@ const HeroSection = () => {
                 >
                     Maquilladora Profesional Visagista
                 </h1>
-                
+
                 <div className="flex flex-col md:flex-row md:gap-3">
                     <h2
                         className={`${philosopher.className} text-5xl md:text-7xl text-shadow-xs text-shadow-black scale-y-150 mt-4 mb-10 md:mt-0`}
                     >
                         Mirna
                     </h2>
-                     <h2
+                    <h2
                         className={`${philosopher.className} text-5xl -mt-5 md:text-7xl text-shadow-xs text-shadow-black scale-y-150 mb-10 md:mt-0`}
                     >
                         Delgado Glave

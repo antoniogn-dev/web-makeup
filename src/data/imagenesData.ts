@@ -15,116 +15,101 @@ interface ImagenesData {
 const galeriaImagenes: ImagenesData[] = [
     {
         id: 1,
-        url: 'https://images.unsplash.com/photo-1472803828399-39d4ac53c6e5?w=800&fit=crop&auto=format',
-        alt: 'Escaleras junto a edificio en escala de grises',
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706520/peinado-03_nng7w0.webp',
+        alt: 'Peinado de novia',
         author: 'Mirna Delgado',
-        category: 'novias',
+        category: 'peinado',
         mostrar_en: "portada"
     },
     {
         id: 2,
-        url: 'https://images.unsplash.com/photo-1527576539890-dfa815648363?w=800&fit=crop&auto=format',
-        alt: 'Fachada curva de Axel Towers en Copenhague',
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706519/maquillaje-05_gqaywp.webp',
+        alt: 'Maquillaje modelo',
+        author: 'Mirna Delgado',
+        category: "maquillaje social",
+        mostrar_en: "portada"
+    },
+    {
+        id: 3,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706485/maquillaje-02_qty1wl.webp',
+        alt: 'Peinado novia',
         author: 'Mirna Delgado',
         category: "peinado",
         mostrar_en: "portada"
     },
     {
-        id: 3,
-        url: 'https://images.unsplash.com/photo-1599669846660-945c5c775181?w=800&fit=crop&auto=format',
-        alt: 'Edificio de gran altura durante la noche',
-        author: 'Mirna Delgado',
-        category: "novias",
-        mostrar_en: "portada"
-    },
-    {
         id: 4,
-        url: 'https://images.unsplash.com/photo-1665779736808-047a6bbf43a0?w=800&fit=crop&auto=format',
-        alt: 'Primer plano de fachada de edificio',
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706518/maquillaje-04_f1qc3e.webp',
+        alt: 'Maquillaje social a staff',
         author: 'Mirna Delgado',
-        category: "novias",
+        category: "maquillaje social",
         mostrar_en: "portada"
     },
     {
         id: 5,
-        url: 'https://images.unsplash.com/photo-1643175517006-4a1bd8ad37cb?w=800&fit=crop&auto=format',
-        alt: 'Rascacielos con múltiples ventanas',
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706485/peinado-02_rxu7nm.webp',
+        alt: 'Peinado novia con rulos',
         author: 'Mirna Delgado',
         category: "peinado",
         mostrar_en: "portada"
     },
     {
         id: 6,
-        url: 'https://images.unsplash.com/photo-1697135807547-5fa9fd22d9ec?w=800&fit=crop&auto=format',
-        alt: 'Escalera de caracol en el exterior del edificio',
-        author: 'Mirna Delgado',
-        category: "quinceañera",
-        mostrar_en: "portada"
-    },
-    {
-        id: 7,
-        url: 'https://images.unsplash.com/photo-1608531078362-d1dcb855bc9f?w=800&fit=crop&auto=format',
-        alt: 'Edificio en blanco y negro',
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706545/social-01_rurkf6.webp',
+        alt: 'Maquillaje para sesion de fotos',
         author: 'Mirna Delgado',
         category: "sesión fotos",
         mostrar_en: "portada"
     },
     {
-        id: 8,
-        url: 'https://images.unsplash.com/photo-1552821773-37cbce3a7965?w=800&fit=crop&auto=format',
-        alt: 'Fotografía en blanco y negro de un edificio',
+        id: 7,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706544/peinado-05_fusq6e.webp',
+        alt: 'Peinado de novia pelo suelto',
         author: 'Mirna Delgado',
-        category: "novias",
+        category: "peinado",
+        mostrar_en: "portada"
+    },
+    {
+        id: 8,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706545/sesion-01_wwgjyx.webp',
+        alt: 'Maquillaje para sesion de fotos en pasarela',
+        author: 'Mirna Delgado',
+        category: "maquillaje social",
         mostrar_en: "portada"
     },
     {
         id: 9,
-        url: 'https://images.unsplash.com/photo-1712567604499-08f207054260?w=800&fit=crop&auto=format',
-        alt: 'Edificio de gran altura con muchas ventanas',
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706519/peinado-04_zp952w.webp',
+        alt: 'Estilo de peinado',
         author: 'Mirna Delgado',
         category: "peinado",
         mostrar_en: "portafolio"
     },
     {
         id: 10,
-        url: 'https://images.unsplash.com/photo-1738844153732-a485f0e78382?w=800&fit=crop&auto=format',
-        alt: 'Edificio con reloj en blanco y negro',
-        author: 'Mirna Delgado',
-        category: "quinceañera",
-        mostrar_en: "portada"
-    },
-    {
-        id: 11,
-        url: 'https://images.unsplash.com/photo-1554201791-f9fcfba504a0?w=800&fit=crop&auto=format',
-        alt: 'Edificio de hormigón gris bajo cielo azul',
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706447/maquillaje-03_wdv8bp.webp',
+        alt: 'Modelo maquillada para evento',
         author: 'Mirna Delgado',
         category: "maquillaje social",
         mostrar_en: "portada"
     },
     {
-        id: 12,
-        url: 'https://images.unsplash.com/photo-1524439188326-e47322d1cef2?w=800&fit=crop&auto=format',
-        alt: 'Bloque de madera blanca en mesa',
+        id: 11,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706485/peinado-01_yr9ls9.webp',
+        alt: 'Maquillaje de novia',
         author: 'Mirna Delgado',
-        category: "peinado",
+        category: "novias",
+        mostrar_en: "portada"
+    },
+    {
+        id: 12,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1787706467/maquillaje-01_wn4mpg.webp',
+        alt: 'Maquillaje de modelo en proceso',
+        author: 'Mirna Delgado',
+        category: "maquillaje social",
         mostrar_en: "portafolio"
     },
-    {
-        id: 13,
-        url: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
-        alt: 'Bloque de madera blanca en mesa',
-        author: 'Mirna Delgado',
-        category: "quinceañera",
-        mostrar_en: "portada"
-    },
-    {
-        id: 14,
-        url: "https://images.unsplash.com/photo-1493246507139-91e8fad9978e",
-        alt: 'Bloque de madera blanca en mesa',
-        author: 'Mirna Delgado',
-        category: "sesión fotos",
-        mostrar_en: "portada"
-    },
+    
 ]
 
 

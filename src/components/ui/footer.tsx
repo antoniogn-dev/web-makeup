@@ -15,7 +15,8 @@ const Footer = () => {
             {" "}
             {/* Updated border color */}
             <div className="max-w-337.5 mx-auto px-6 md:px-12 py-12">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                    
                     {/* Logo and Description */}
                     <div className="space-y-4">
                         <div className="flex items-center space-x-2">
@@ -71,7 +72,7 @@ const Footer = () => {
 
 
 
-                    {/* Quick Links */}
+                    {/* enlaces */}
                     <div className="md:ml-20">
                         <h3 className="clash-display text-zinc-800  mb-4 pb-2 border-b border-sky-500/10">
                             {" "}
@@ -134,17 +135,21 @@ const Footer = () => {
                         </h3>
                         <ul className="space-y-4">
                             <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
-                                <Mail size={16} className="text-red-600" />{" "}
+                                <div>
+                                    <Mail size={16} className="text-red-600" />{" "}
+                                </div>
                                 {/* Updated icon color */}
                                 <Link href="mailto:mirnadelgadoglave@gmail.com" >
-                                    <span>mirnadelgadoglave@gmail.com</span> {/* Updated email */}
+                                    <span className="w-full md:w-89" >mirnadelgadoglave@gmail.com</span> {/* Updated email */}
                                 </Link>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
-                                <Mail size={16} className="text-red-600" />{" "}
+                                <div>
+                                    <Mail size={16} className="text-red-600" />{" "}
+                                </div>
                                 {/* Updated icon color */}
                                 <Link href="mailto:estudio@mirnadelgadoglavemakeup.com">
-                                    <span>estudio@mirnadelgadoglavemakeup.com</span> {/* Updated email */}
+                                    <span className="w-full md:w-89">estudio@mirnadelgadoglavemakeup.com</span> {/* Updated email */}
                                 </Link>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
@@ -155,9 +160,18 @@ const Footer = () => {
                                 </Link>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600">
-                                <MapPin size={16} className="text-red-600" />{" "}
+                                <div>
+                                    <MapPin size={16} className="text-red-600" />{" "}
+                                </div>
                                 {/* Added location icon */}
-                                <span className="w-full md:w-87.5">Urb. Quinta Tristan S-4 José Luis Bustamante y Rivero - Arequipa</span> {/* Dummy address */}
+                                <span className="w-full md:w-89">Urb. Quinta Tristan S-4 José Luis Bustamante y Rivero - Arequipa</span> {/* Dummy address */}
+                            </li>
+                            <li className="flex items-center space-x-3 text-gray-600">
+                                <div className="">
+                                    <MapPin size={16} className="text-red-600" />{" "}
+                                </div>
+                                {/* Added location icon */}
+                                <span className="w-full md:w-87.5">Estudio: Urb. El Palacio k-6 - Arequipa</span> {/* Dummy address */}
                             </li>
                         </ul>
                     </div>
