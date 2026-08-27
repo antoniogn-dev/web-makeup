@@ -2,8 +2,6 @@
 import { NextResponse } from 'next/server';
 
 export async function POST(request: Request) {
-    console.log('Token presente:', !!process.env.MAILERLITE_API_TOKEN);
-    console.log('Primeros caracteres:', process.env.MAILERLITE_API_TOKEN?.slice(0, 10));
     try {
         const { email } = await request.json();
 
