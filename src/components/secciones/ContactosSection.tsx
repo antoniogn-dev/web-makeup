@@ -30,12 +30,6 @@ const ContactosSection = () => {
                             <span className="hover:text-titulos hover:font-semibold text-[14px] md:text-[18px]">mirnadelgadoglave@gmail.com</span>
                         </p>
                     </Link>
-                    <Link href="mailto:estudio@mirnadelgadoglavemakeup.com">
-                        <p className="flex items-center gap-3 cursor-pointer mb-5">
-                            <RiMailLine className="text-titulos size-4.5 md:size-5.75" />
-                            <span className="hover:text-titulos hover:font-semibold text-[14px] md:text-[18px]">estudio@mirnadelgadoglavemakeup.com</span>
-                        </p>
-                    </Link>
                     <p className="flex items-center gap-3 mb-5">
                         <RiMapPinLine className="text-titulos size-4.5 md:size-5.75" />
                         <span className="md:text-[18px] text-[14px] w-full md:w-125">Urb. Quinta tristan S-4 José Luis Bustamante y Rivero Arequipa - Perú</span>

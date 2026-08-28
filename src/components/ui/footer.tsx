@@ -143,15 +143,7 @@ const Footer = () => {
                                     <span className="w-full md:w-89" >mirnadelgadoglave@gmail.com</span> {/* Updated email */}
                                 </Link>
                             </li>
-                            <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
-                                <div>
-                                    <Mail size={16} className="text-red-600" />{" "}
-                                </div>
-                                {/* Updated icon color */}
-                                <Link href="mailto:estudio@mirnadelgadoglavemakeup.com">
-                                    <span className="w-full md:w-89">estudio@mirnadelgadoglavemakeup.com</span> {/* Updated email */}
-                                </Link>
-                            </li>
+                           
                             <li className="flex items-center space-x-3 text-gray-600 hover:text-red-600">
                                 <Phone size={16} className="text-red-600" />{" "}
                                 {/* Added phone icon */}
