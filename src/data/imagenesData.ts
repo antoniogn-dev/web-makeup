@@ -109,6 +109,38 @@ const galeriaImagenes: ImagenesData[] = [
         category: "maquillaje social",
         mostrar_en: "portafolio"
     },
+    {
+        id: 13,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1792597376/IMG_1387_iprh7g.jpg',
+        alt: 'Peinado de Ejemplo',
+        author: 'Mirna Delgado',
+        category: "peinado",
+        mostrar_en: "portafolio"
+    },
+    {
+        id: 14,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1792597362/IMG_1523_ecxwnh.jpg',
+        alt: 'Retoque de modelo para pasarela',
+        author: 'Mirna Delgado',
+        category: "peinado",
+        mostrar_en: "portafolio"
+    },
+    {
+        id: 15,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1792597303/mirna-delgado-glave_qejjsw.jpg',
+        alt: 'Maquillaje casual o social',
+        author: 'Mirna Delgado',
+        category: "maquillaje social",
+        mostrar_en: "portada"
+    },
+    {
+        id: 16,
+        url: 'https://res.cloudinary.com/di9p7jkxo/image/upload/v1792597346/IMG_1520_iaopic.jpg',
+        alt: 'Retoques a modelo antes de paso por pasarela',
+        author: 'Mirna Delgado',
+        category: "maquillaje social",
+        mostrar_en: "portafolio"
+    },
     
 ]
 
