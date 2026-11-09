@@ -8,9 +8,27 @@ import BotonWhatsapp from "@/components/ui/BotonWhatsapp";
 
 
 export const metadata: Metadata = {
-    title: "Mirna Delgado Glave",
-    description: "Maquilladora profesional en Arequipa - Perú",
+    title: {
+        default: "Maquilladora Profesional en Arequipa | Mirna Delgado Glave",
+        template: "%s | Mirna Delgado Glave",
+    },
+    description:
+        "Maquilladora profesional en Arequipa. Especialista en maquillaje social, novias y peinados. Reserva tu cita.",
+    metadataBase: new URL("https://mirnadelgadoglavemakeup.com"),
+    alternates: {
+        canonical: "/",
+    },
+    openGraph: {
+        title: "Mirna Delgado Glave | Maquilladora Profesional en Arequipa",
+        description:
+            "Maquillaje profesional para novias, eventos y ocasiones especiales en Arequipa.",
+        url: "https://mirnadelgadoglavemakeup.com",
+        siteName: "Mirna Delgado Glave Makeup",
+        locale: "es_PE",
+        type: "website",
+    },
 };
+
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
     return (
